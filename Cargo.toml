@@ -1,0 +1,17 @@
+[package]
+name = "walk-rs"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+[[bin]]
+name = "walk"
+path = "src/main.rs"
+
+[lib]
+name = "walk_rs"
+path = "src/walk.rs"
+
+[dependencies]
+file-format = "0.24.0"
+regex = "1.10.4"
